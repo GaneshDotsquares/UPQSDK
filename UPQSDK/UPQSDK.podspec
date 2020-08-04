@@ -83,7 +83,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/UPQSDK.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/GaneshDotsquares/DemoSDK.git" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
