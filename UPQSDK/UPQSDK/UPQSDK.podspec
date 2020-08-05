@@ -7,26 +7,26 @@
 #
 
 Pod::Spec.new do |spec|
- 
+
+  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  These will help people to find your library, and whilst it
+  #  can feel like a chore to fill in it's definitely to your advantage. The
+  #  summary should be tweet-length, and the description more in depth.
+  #
 
   spec.name         = "UPQSDK"
-  spec.version      = "1.0"
+  spec.version      = "0.0.1"
   spec.summary      = "A short description of UPQSDK."
-  spec.description  = "A complete description of UPQSDK"
- 
- spec.platform     = :ios, "11.1"
-
+  spec.description  ="A complete description of UPQSDK"
+  spec.platform     = :ios, "11.1"
   spec.homepage     = "http://EXAMPLE/UPQSDK"
-  spec.license      = "MIT"
-  spec.author               = { "Ganesh" => "ganesh.gupta@dotsquares.com" }
-  spec.source       = { :git => "https://github.com/GaneshDotsquares/DemoSDK.git" }
-  spec.source_files  = "UPQSDK"
-  #spec.exclude_files = "Classes/Exclude"
- # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
- # spec.libraries = "iconv", "xml2"
-  spec.swift_version = "4.2" 
-  spec.dependency = 'Socket.IO-Client-Swift', '14.0'
-  spec.dependency  'SVProgressHUD'
-
-
+  spec.license      = "MIT (example)"
+  spec.author             = { "GaneshDotsquares" => "techdotsquares@gmail.com" }
+  spec.source       = { :git => "https://github.com/GaneshDotsquares/DemoSDK.git", :tag => "1.1" }
+  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.exclude_files = "Classes/Exclude"
+  spec.dependency 'SVProgressHUD'
+  spec.dependency 'Socket.IO-Client-Swift', '~> 14.0'
+  spec.dependency 'googleapis', :path => '.'
 end
