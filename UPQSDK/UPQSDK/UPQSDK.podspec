@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "http://EXAMPLE/UPQSDK"
   spec.license      = "MIT (example)"
   spec.author             = { "GaneshDotsquares" => "techdotsquares@gmail.com" }
-  spec.source       = { :git => "https://github.com/GaneshDotsquares/DemoSDK.git", :tag => "1.1" }
+  spec.source       = { :git => "https://github.com/GaneshDotsquares/UPQSDK.git", :tag => "1.1" }
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
   spec.dependency 'SVProgressHUD'
